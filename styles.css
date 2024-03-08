@@ -120,36 +120,45 @@ body {
 
 
 
+/* Desktop styles, which apply when the width is greater than 768px */
 #aboutme {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+}
+
+#aboutme .flex-1 {
+    /* Adjust the width or padding as needed */
 }
 
 #aboutme img {
-    width: 100%;
-    max-width: 300px; /* Adjust this value as needed */
+    max-width: 300px; /* Or whatever size you prefer */
     height: auto;
+    margin-left: 16px; /* Or whatever spacing you prefer between the text and the image */
 }
 
-#aboutme h1, #aboutme h2, #aboutme p {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
+/* Mobile styles, which apply when the width is less than or equal to 768px */
 @media only screen and (max-width: 768px) {
     #aboutme {
         flex-direction: column;
+        text-align: center;
     }
 
     #aboutme img {
-        display: block;
-        width: 50%;
-        margin-bottom: 16px;
+        order: -1; /* This will place the image above the "About Me" title */
+        width: 80%; /* Adjust width as needed */
+        height: auto;
+        margin: 16px auto; /* Centers the image and adds margin on top and bottom */
+    }
+
+    #aboutme h1, #aboutme h2, #aboutme p {
+        /* Adjust font sizes if necessary */
+        font-size: smaller;
     }
 
     #aboutme .flex-1 {
-        order: -1; /* This will position the text block above the image */
+        width: 100%; /* Full width for mobile */
+        order: 1; /* Ensure the text comes after the image */
     }
 }
-
-
