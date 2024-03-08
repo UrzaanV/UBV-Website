@@ -147,6 +147,13 @@ body {
     }
 
     /*#aboutme h1, #aboutme h2,*/ 
+
+    #aboutme h2 {
+        font-size: large; /* Smaller font size for mobile */
+    }
+    #aboutme h1 {
+        font-size: medium; /* Smaller font size for mobile */
+    }
     
     #aboutme p {
         /* Adjust font sizes for mobile as needed */
