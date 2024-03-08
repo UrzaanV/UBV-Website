@@ -123,14 +123,15 @@ body {
         text-align: center;
     }
 
-    #aboutme .flex-1 {
-        width: 100%;
+    #aboutme .flex-col {
+        align-items: center;
     }
 
     #aboutme img {
         width: 50%; /* Adjust this as needed */
         height: 50%;
         margin-bottom: 16px; /* Add some space below the image */
+        margin-top: 16px;
     }
 
     #aboutme h1, #aboutme h2, #aboutme p {
