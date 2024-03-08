@@ -25,10 +25,11 @@
         </nav>
     </header>
 
-<section id="aboutme" class="px-16 py-12">
-    <h2 class="text-4xl text-design-gold mb-4 font-bold fade-in2">About Me</h2>
-    <div class="flex flex-col items-center fade-in2">
-        <img src="./img/websitepic.jpeg" alt="Urzaan, a software engineer, looking confidently into the camera." class="mb-4 w-6/12">
+<section id="aboutme" class="px-16 py-12 flex flex-col md:flex-row items-center">
+    <h2 class="text-4xl text-design-gold mb-4 font-bold w-full text-center md:text-left fade-in2">About Me</h2>
+    <!-- The image is initially hidden on desktop, shown on mobile -->
+    <img src="./img/websitepic.jpeg" alt="Urzaan, a software engineer" class="hidden md:hidden mb-4 w-full md:w-1/2" id="aboutme-img-mobile">
+    <div class="flex-1 fade-in2">
         <h1 class="text-5xl font-bold mb-4">Hello!</h1>
         <p class="text-lg mb-4">
             MY NAME IS URZAAN AND I'M A SOFTWARE ENGINEER.
@@ -48,6 +49,8 @@
             CONTACT ME
         </button>
     </div>
+<!-- On desktop, the image remains where it was originally placed -->
+    <img src="./img/websitepic.jpeg" alt="Urzaan, a software engineer" class="flex-1 hidden md:block fade-in2">
 </section>
 
 
