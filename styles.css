@@ -116,31 +116,39 @@ body {
     transition: color 0.3s ease-in-out;
 }
 
+
+
+
+
+#aboutme {
+    text-align: center;
+}
+
+#aboutme img {
+    width: 100%;
+    max-width: 300px; /* Adjust this value as needed */
+    height: auto;
+}
+
+#aboutme h1, #aboutme h2, #aboutme p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media only screen and (max-width: 768px) {
-    /* ... other styles ... */
-
-    /* Now only targeting the mobile image for display */
-    #aboutme-img-mobile {
-        display: block; /* Show the image */
-        width: 60%; /* Adjust width as necessary */
-        height: auto; /* Maintain aspect ratio */
-        margin: 0 auto 16px; /* Center the image with auto margins and add space below */
-    }
-
-    /* Adjust the desktop image to remain hidden on mobile */
-    #aboutme img {
-        display: none;
-    }
-
-    /* Make sure content stacks vertically on mobile */
     #aboutme {
         flex-direction: column;
-        align-items: center;
     }
-    
-    /* Adjust the text size for mobile if necessary */
-    #aboutme h1, #aboutme h2, #aboutme p {
-        font-size: smaller; /* You might want to specify exact font sizes instead of 'smaller' */
+
+    #aboutme img {
+        display: block;
+        width: 50%;
+        margin-bottom: 16px;
+    }
+
+    #aboutme .flex-1 {
+        order: -1; /* This will position the text block above the image */
     }
 }
 
