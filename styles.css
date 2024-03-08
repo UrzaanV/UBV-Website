@@ -130,6 +130,13 @@ body {
     align-items: center;
 }
 
+#aboutme img {
+    display: block;
+}
+
+#aboutme-img-mobile {
+    display: none;
+}
 
 /* Mobile styles */
 @media only screen and (max-width: 768px) {
@@ -139,11 +146,16 @@ body {
         text-align: center;
     }
 
-    #aboutme img {
-        /* Adjust the image size as needed for mobile */
-        width: 80%; /* Example mobile size */
+    #aboutme-img-mobile {
+        display: block; /* Show the image */
+        width: 80%; /* Adjust width as necessary */
         margin-top: 16px; /* Space above the image */
         margin-bottom: 16px; /* Space below the image */
+    }
+
+    /* Adjust the desktop image to remain hidden on mobile */
+    #aboutme img {
+        display: none;
     }
 
     /*#aboutme h1, #aboutme h2,*/ 
