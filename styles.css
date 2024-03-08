@@ -128,7 +128,7 @@ body {
     }
 
     #aboutme img {
-        width: 80%; /* Adjust this as needed */
+        width: 50%; /* Adjust this as needed */
         height: auto;
         margin-bottom: 16px; /* Add some space below the image */
     }
