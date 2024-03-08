@@ -130,11 +130,11 @@ body {
     align-items: center;
 }
 
-#aboutme img {
+.aboutme-img-desktop {
     display: block;
 }
 
-#aboutme-img-mobile {
+.aboutme-img-mobile {
     display: none;
 }
 
@@ -146,7 +146,7 @@ body {
         text-align: center;
     }
 
-    #aboutme-img-mobile {
+    .aboutme-img-mobile {
         display: block; /* Show the image */
         width: 80%; /* Adjust width as necessary */
         margin-top: 16px; /* Space above the image */
@@ -154,7 +154,7 @@ body {
     }
 
     /* Adjust the desktop image to remain hidden on mobile */
-    #aboutme img {
+    .aboutme-img-desktop {
         display: none;
     }
 
