@@ -132,7 +132,7 @@ body {
 
 #aboutme img {
     width: auto;
-    max-width: auto;/* Adjust this as needed */
+    max-width: 100%;/* Adjust this as needed */
     height: auto; /* Maintain aspect ratio */
 }
 
