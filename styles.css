@@ -149,15 +149,15 @@ body {
     /*#aboutme h1, #aboutme h2,*/ 
 
     #aboutme h2 {
-        font-size: large; /* Smaller font size for mobile */
+        font-size: 1.4rem; /* Smaller font size for mobile */
     }
     #aboutme h1 {
-        font-size: medium; /* Smaller font size for mobile */
+        font-size: 1.3rem; /* Smaller font size for mobile */
     }
     
     #aboutme p {
         /* Adjust font sizes for mobile as needed */
-        font-size: 1.25rem;
+        font-size: 1.15rem;
     }
 
     #aboutme .flex-1 {
