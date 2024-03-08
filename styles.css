@@ -170,6 +170,7 @@ body {
     #aboutme p {
         /* Adjust font sizes for mobile as needed */
         font-size: smaller;
+        margin: 0;
     }
 
     #aboutme .flex-1 {
