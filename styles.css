@@ -130,12 +130,13 @@ body {
     align-items: center;
 }
 
-#aboutme img {
+/*#aboutme img {
     width: auto;
     /*max-width: 100%;*/
     /* Adjust this as needed */
-    height: auto; /* Maintain aspect ratio */
-}
+    height: auto; 
+/* Maintain aspect ratio */
+}*/
 
 /* Mobile styles */
 @media only screen and (max-width: 768px) {
