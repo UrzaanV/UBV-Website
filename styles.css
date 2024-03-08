@@ -157,7 +157,7 @@ body {
     
     #aboutme p {
         /* Adjust font sizes for mobile as needed */
-        font-size: 1.15rem;
+        font-size: smaller;
     }
 
     #aboutme .flex-1 {
