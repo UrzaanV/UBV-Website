@@ -64,6 +64,8 @@ body {
     }
     .education-item div {
         width: 100%;
+        justify-content: center; /* Centers its children horizontally */
+        text-align: center; /* Centers text for any text inside the div */
     }
 }
 
