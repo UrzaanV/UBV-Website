@@ -181,21 +181,3 @@ body {
         width: 100%;
     }
 }
-
-
-header nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 12px;
-}
-
-header nav .text-3xl {
-    font-size: 1.875rem; /* This corresponds to Tailwind's text-3xl */
-    /* Add more styling as needed */
-}
-
-header nav div:nth-child(2) {
-    display: flex;
-    gap: 16px; /* This adds space between the navigation links */
-    /* Adjust gap as needed */
-}
