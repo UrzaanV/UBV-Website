@@ -129,7 +129,7 @@ body {
 
     #aboutme img {
         width: 50%; /* Adjust this as needed */
-        height: auto;
+        height: 50%;
         margin-bottom: 16px; /* Add some space below the image */
     }
 
