@@ -1,0 +1,119 @@
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+/* Additional styles would go here, extracted from the original HTML if present */
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens here */
+    .flex-1 {
+        width: 50%;
+    }
+    .flex {
+        flex-direction: row;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+.fade-in2 {
+    animation: fadeIn 2.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#contact-info {
+    display: none;
+}
+
+#education{
+  display: none;
+}
+
+.education-item {
+    display: flex;
+    align-items: center; /* This vertically centers the content */
+}
+
+.education-logo {
+    /* Adjust width as needed or use Tailwind's width utility classes */
+    width: 150px; /* Example fixed width, or use a percentage */
+    margin-right: 20px; /* Add some space between the image and the text */
+}
+
+/* You can also adjust the width of the image and text container within the media queries if needed */
+@media only screen and (max-width: 768px) {
+    .education-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .education-logo {
+        width: 100%;
+        margin-right: 0;
+    }
+    .education-item div {
+        width: 100%;
+    }
+}
+
+.transition-transform {
+    transition: transform 0.3s ease;
+}
+
+/* This class is already provided by Tailwind, but if you need to create it manually, here it is */
+.hover\:scale-110:hover {
+    transform: scale(1.10);
+}
+
+#certifications{
+  display: none;
+}
+
+#projects{
+  display: none;
+}
+
+#skills{
+  display: none;
+}
+
+
+.bg-design-dark {
+    background-color: #1a1a1a; /* Example dark background */
+}
+
+.text-design-gold {
+    color: #d4af37; /* Example gold color for text */
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.decoration-design-gold {
+    text-decoration-color: #d4af37; /* Example gold color for underline */
+}
+
+.hover:text-design-gold:hover {
+    color: #d4af37; /* Change text color to gold on hover */
+}
+
+/* Add transitions for smooth color change */
+.transition {
+    transition: color 0.3s ease-in-out;
+}
+
+
