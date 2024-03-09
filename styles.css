@@ -181,3 +181,28 @@ body {
         width: 100%;
     }
 }
+
+
+@media only screen and (max-width: 768px) {
+    #skills .flex-wrap {
+        justify-content: flex-start; /* Align items to the start on mobile */
+    }
+
+    #skills .flex-1 {
+        /* Make each skill take full width to stack them vertically */
+        width: 100%;
+        min-width: 100%; /* Override the minimum width set for desktop */
+        margin-bottom: 1rem; /* Adjust bottom margin for space between skill items */
+    }
+
+    #skills p {
+        text-align: left; /* Align text to the left for readability */
+        font-size: 1rem; /* Adjust font size for mobile screens */
+        margin-bottom: 0.5rem; /* Reduce space between skill items if necessary */
+    }
+
+    #skills h2, #skills h3 {
+        text-align: left; /* Align heading text to the left */
+        font-size: 1.5rem; /* Adjust heading font size for mobile */
+    }
+}
