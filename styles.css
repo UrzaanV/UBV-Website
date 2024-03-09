@@ -90,15 +90,6 @@ body {
   display: none;
 }
 
-
-.bg-design-dark {
-    background-color: #1a1a1a; /* Example dark background */
-}
-
-.text-design-gold {
-    color: #d4af37; /* Example gold color for text */
-}
-
 .font-bold {
     font-weight: bold;
 }
