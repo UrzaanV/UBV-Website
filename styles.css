@@ -227,6 +227,7 @@ header nav div {
     }
     header nav .text-3xl {
         margin-bottom: 10px; /* Adjust space between the title and nav links */
+        text-align: center;
     }
     header nav div:nth-child(2) {
         display: flex;
