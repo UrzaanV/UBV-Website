@@ -192,7 +192,7 @@ body {
         margin-bottom: 0.5rem; /* Reduce space between skill items if necessary */
     }
 
-    #skills h2, #skills h3 {
+    #skills h3 {
         text-align: left; /* Align heading text to the left */
         font-size: 1.5rem; /* Adjust heading font size for mobile */
     }
