@@ -47,3 +47,12 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+  // Allow for the DOM to fully load, especially images or other resources.
+  setTimeout(() => {
+    const aboutMeSection = document.getElementById('aboutme');
+    if (aboutMeSection) {
+      aboutMeSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, 1500); // The delay of 1000 milliseconds (1.5 second) before scrolling
+});
