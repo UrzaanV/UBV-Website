@@ -224,20 +224,27 @@ header nav div {
 @media only screen and (max-width: 768px) {
     header nav {
         flex-direction: column;
+        align-items: center; /* Center the flex items */
     }
+
     header nav .text-3xl {
         margin-bottom: 10px; /* Adjust space between the title and nav links */
         text-align: center;
+        font-size: 5vw; /* Scale font size based on the width of the viewport */
     }
+
     header nav div:nth-child(2) {
         display: flex;
         flex-direction: row;
         justify-content: center;
         flex-wrap: nowrap; /* Prevent the nav items from wrapping */
     }
+
     header nav a {
-        font-size: 0.7rem; /* Reduce font size to fit all items in a single line */
-        padding: 0.25rem; /* Adjust padding to reduce space between nav items */
+        font-size: 3vw; /* Scale font size based on the width of the viewport */
+        padding: 1vw; /* Scale padding based on the width of the viewport */
+        margin: 0; /* Remove margin to save space */
     }
 }
+
 
