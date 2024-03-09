@@ -206,3 +206,25 @@ body {
         font-size: 1.5rem; /* Adjust heading font size for mobile */
     }
 }
+
+@media only screen and (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav div:first-child {
+        margin-bottom: 1rem; /* Add some space between the name and the nav links */
+    }
+
+    header nav div:nth-child(2) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header nav a {
+        margin: 0.5rem; /* Add some space around the links */
+    }
+}
+
