@@ -221,8 +221,8 @@ body {
         flex-wrap: nowrap; /* Prevent the nav items from wrapping */
     }
     header nav a {
-        font-size: 0.8rem; /* Reduce font size to fit all items in a single line */
-        padding: 0.5rem; /* Adjust padding to reduce space between nav items */
+        font-size: 0.7rem; /* Reduce font size to fit all items in a single line */
+        padding: 0.25rem; /* Adjust padding to reduce space between nav items */
     }
 }
 
