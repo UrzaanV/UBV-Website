@@ -210,21 +210,19 @@ body {
 @media only screen and (max-width: 768px) {
     header nav {
         flex-direction: column;
-        text-align: center;
     }
-
-    header nav div:first-child {
-        margin-bottom: 1rem; /* Add some space between the name and the nav links */
+    header nav .text-3xl {
+        margin-bottom: 10px; /* Adjust space between the title and nav links */
     }
-
     header nav div:nth-child(2) {
+        display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         justify-content: center;
+        flex-wrap: nowrap; /* Prevent the nav items from wrapping */
     }
-
     header nav a {
-        margin: 0.5rem; /* Add some space around the links */
+        font-size: 0.8rem; /* Reduce font size to fit all items in a single line */
+        padding: 0.5rem; /* Adjust padding to reduce space between nav items */
     }
 }
 
